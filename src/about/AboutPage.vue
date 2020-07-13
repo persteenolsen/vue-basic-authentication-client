@@ -7,7 +7,7 @@
    <h3>Description</h3>
 
   
-   This Vue.js + Vuex SPA Client work together with a secure ASP.NET Core 2.2 Express Web API doing Basic HTTP Authentication 
+   This Vue.js + Vuex SPA Client work together with a secure ASP.NET Core 2.2 Web API doing Basic Authentication 
    <br/> <br/>
    
    <b>Last Updated</b>
@@ -18,7 +18,7 @@
    <b>Main functionality</b>
    <ul>
      
-      <li>Login using a Basic HTTP Authentication</li>
+      <li>Login using a Basic Authentication</li>
            
    </ul>
 
@@ -34,13 +34,10 @@
     
     <ul>
    
-      <li>The login system is using a Basic HTTP Authentication</li>
+      <li>The login system is using a Basic Authentication</li>
       <li>The user will have access to the secure endpoints of 
           the Web API passing login and using the AuthData / Token</li>
-      <li>The Web API is secured by CORS allowing only the 
-          subdomain containing the SPA client making HTTPS request</li>
-
-     </ul>
+      </ul>
 
  
     <b>The Vue.js + Vuex Single Page Application - The frontend</b>
